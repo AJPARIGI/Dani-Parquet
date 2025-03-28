@@ -74,7 +74,7 @@ const Reviews = () => {
         >
           <h2 className="text-4xl font-bold text-center mb-16">Recensioni dei Clienti</h2>
 
-          <div className="flex justify-center gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {displayedReviews.map((review, index) => (
               <motion.div
                 key={index}
