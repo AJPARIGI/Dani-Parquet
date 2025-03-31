@@ -4,6 +4,7 @@ import { Phone, Mail, Star, ChevronDown, Hammer, Shield, PenTool as Tool, Paintb
 import ContactForm from './components/ContactForm';
 import Portfolio from './components/Portfolio';
 import Reviews from './components/Reviews';
+ import CookieBanner from './components/CookieBanner';
 
 function App() {
   return (
@@ -129,6 +130,7 @@ function App() {
           </div>
         </div>
       </footer>
+      <CookieBanner />
     </div>
   );
 }
