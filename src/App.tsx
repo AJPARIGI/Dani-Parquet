@@ -5,11 +5,13 @@ import ContactForm from './components/ContactForm';
 import Portfolio from './components/Portfolio';
 import Reviews from './components/Reviews';
  import CookieBanner from './components/CookieBanner';
+import SeoSchema from './components/SeoSchema';
 
 function App() {
   return (
     <div className="min-h-screen bg-stone-50">
       {/* Hero Section */}
+      <SeoSchema />
       <header className="relative h-screen flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 z-0"
